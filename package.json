@@ -7,7 +7,7 @@
     "url": "git+https://github.com/nayeonshin/metube.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "author": "Nayeon Shin<contact@nayeonshin.dev>",
   "license": "MIT",
