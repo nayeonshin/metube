@@ -2,15 +2,24 @@
   "name": "metube",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nayeonshin/metube.git"
+  },
+  "scripts": {
+    "start": "node index.js"
   },
   "author": "Nayeon Shin<contact@nayeonshin.dev>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nayeonshin/metube/issues"
   },
-  "homepage": "https://github.com/nayeonshin/metube#readme"
+  "homepage": "https://github.com/nayeonshin/metube#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10"
+  }
 }
