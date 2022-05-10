@@ -1,0 +1,16 @@
+{
+  "name": "metube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayeonshin/metube.git"
+  },
+  "author": "Nayeon Shin<contact@nayeonshin.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nayeonshin/metube/issues"
+  },
+  "homepage": "https://github.com/nayeonshin/metube#readme"
+}
