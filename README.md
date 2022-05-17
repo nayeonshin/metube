@@ -5,11 +5,12 @@
 - [ ] `/signin` -> Sign in
 - [ ] `/search` -> Search
 
-- [ ] `/user/edit` -> Edit profile
-- [ ] `/user/delete` -> Delete profile
+- [ ] `/user/:id` -> See user profile
+- [ ] `/user/signout` -> Sign out
+- [ ] `/user/edit` -> Edit my profile
+- [ ] `/user/delete` -> Delete my profile
 
-- [ ] `/video/watch` -> Watch video
-- [ ] `/video/edit` -> Edit video
-- [ ] `/video/delete` -> Delete video
-- [ ] `/video/comments` -> Comment on video
-- [ ] `/video/comments/delete` -> Delete comments of video
+- [ ] `/video/:id` -> Watch, like, comment on video
+- [ ] `/video/:id/edit` -> Edit video
+- [ ] `/video/:id/delete` -> Delete video
+- [ ] `/videos/upload` -> Upload video
