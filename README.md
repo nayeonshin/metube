@@ -1,9 +1,9 @@
 # MeTube
 
-- [ ] `/` -> Home
-- [ ] `/signup` -> Sign up
-- [ ] `/signin` -> Sign in
-- [ ] `/search` -> Search
+- [x] `/` -> Home
+- [x] `/signup` -> Sign up
+- [x] `/signin` -> Sign in
+- [x] `/search` -> Search
 
 - [ ] `/user/:id` -> See user profile
 - [ ] `/user/signout` -> Sign out
