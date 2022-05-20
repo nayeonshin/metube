@@ -10,5 +10,5 @@ export const search = (req, res) => res.send("Search");
 export const see = (req, res) => {
   return res.send(`Watch Video #${req.params.id}`);
 };
-export const showAll = (req, res) => res.send("Homepage videos");
+export const showAll = (req, res) => res.render("home");
 export const upload = (req, res) => res.send("Upload");
