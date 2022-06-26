@@ -25,15 +25,17 @@ let videos = [
   },
 ];
 
-export const deleteVideo = (req, res) => res.send("Delete");
-export const edit = (req, res) => res.render("edit");
-export const search = (req, res) => res.send("Search");
-export const watch = (req, res) => {
+export const getEdit = (req, res) => {
   const { id } = req.params;
   const video = videos[id - 1];
-  return res.render("watch", { pageTitle: `Watching ${video.title}`, video });
+  return res.render("edit", { pageTitle: `Editing: ${video.title}`, video });
 };
+export const postEdit = (req, res) => {};
 export const showAll = (req, res) => {
   return res.render("home", { pageTitle: "Home", videos });
 };
-export const upload = (req, res) => res.send("Upload");
+export const watch = (req, res) => {
+  const { id } = req.params;
+  const video = videos[id - 1];
+  return res.render("watch", { pageTitle: `Watching: ${video.title}`, video });
+};
